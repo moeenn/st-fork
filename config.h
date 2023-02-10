@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Cascadia Code:Regular:size=10:antialias=true:autohint=false";
+static char *font = "JetBrains Mono:Medium:size=10:antialias=true:autohint=false";
 static int borderpx = 15;
 
 /*
@@ -96,7 +96,7 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#263640", /* black   */
+	"#202D36", /* black   */
 	"#d12f2c", /* red     */
 	"#819400", /* green   */
 	"#b08500", /* yellow  */
