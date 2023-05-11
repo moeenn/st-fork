@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:Medium:size=10:antialias=true:autohint=false";
+static char *font = "JetBrains Mono:Regular:size=10:antialias=true:autohint=false";
 static int borderpx = 15;
 
 /*
@@ -96,28 +96,28 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#404040", /* black   */
-	"#E84F4F", /* red     */
-	"#B7CE42", /* green   */
-	"#FEA63C", /* yellow  */
-	"#66AABB", /* blue    */
-	"#B7416E", /* magenta */
-	"#6D878D", /* cyan    */
-	"#DDDDDD", /* white   */
+	"#282828", /* black   */
+	"#fa565c", /* red     */
+	"#98c379", /* green   */
+	"#e5c07b", /* yellow  */
+	"#61afef", /* blue    */
+	"#c678dd", /* magenta */
+	"#56b6c2", /* cyan    */
+	"#D4D4D4", /* white   */
 
-	"#606060", /* black   */
-	"#D23D3D", /* red     */
-	"#BDE077", /* green   */
-	"#FFE863", /* yellow  */
-	"#AACCBB", /* blue    */
-	"#E16A98", /* magenta */
-	"#42717B", /* cyan    */
-	"#CCCCCC", /* white   */
+	"#505050", /* black   */
+	"#e06c75", /* red     */
+	"#98c379", /* green   */
+	"#e5c07b", /* yellow  */
+	"#61afef", /* blue    */
+	"#c678dd", /* magenta */
+	"#56b6c2", /* cyan    */
+	"#D4D4D4", /* white   */
 
  	[255] = 0,
 
-	"#CCCCCC", /* default foreground colour */
-	"#252525", /* default background colour */
+	"#D4D4D4", /* default foreground colour */
+	"#1E1E1E", /* default background colour */
 };
 
 /*
